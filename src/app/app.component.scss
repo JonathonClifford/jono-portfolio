@@ -1,0 +1,45 @@
+$dark: #555B6E;
+$dark-green: #89B0AE;
+$light-green: #BEE3DB;
+$white: #FAF9F9;
+$light: #FFD6BA;
+
+header {
+    background-color: $dark;
+    color: $light;
+    text-align: center;
+    padding: 20px;
+    height: 500px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 75px;
+    background-color: $dark-green;
+    color: $white;
+    text-align: center;
+    padding: 20px;
+}
+
+.project-link {
+    grid-column: 1 / 7;
+    padding: 20px;
+}
+
+.project-frame {
+    grid-column: 7 / 13;
+    padding: 20px;
+    height: 500px;
+}
+
+.timer-frame {
+    height: 100%;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.subtitle {
+    text-align: center;
+    grid-column: 1 / -1;
+}
