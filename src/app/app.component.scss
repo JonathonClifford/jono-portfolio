@@ -1,3 +1,5 @@
+@import '~@angular/material/theming';
+
 $dark: #555B6E;
 $dark-green: #89B0AE;
 $light-green: #BEE3DB;
@@ -5,11 +7,13 @@ $white: #FAF9F9;
 $light: #FFD6BA;
 
 header {
-    background-color: $dark;
-    color: $light;
     text-align: center;
+    margin: 20px;
     padding: 20px;
-    height: 500px;
+}
+
+.spacer {
+    flex: 1 1 auto;
 }
 
 .projects {
@@ -42,4 +46,10 @@ header {
 .subtitle {
     text-align: center;
     grid-column: 1 / -1;
+}
+
+.title-header {
+    margin: 15px;
+    font-size: 60px;
+    font-weight: bold;
 }

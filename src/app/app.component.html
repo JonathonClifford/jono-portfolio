@@ -1,21 +1,18 @@
-<mat-toolbar>
-  <span>Jonathon Clifford</span>
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Jonathon Clifford</span>
+    <span class="spacer"></span>
+    <a mat-raised-button href="mailto:jono.cliff@gmail.com?subject=Enquiry%20to%20Jonathon%20Clifford" target="_blank">
+      <mat-icon>email</mat-icon>
+    </a>
+    <a mat-raised-button href="https://www.linkedin.com/in/jonathon-clifford/" target="_blank">LinkedIn</a>
+  </mat-toolbar-row>
 </mat-toolbar>
-<header>
-  <h1>Jonathon Clifford</h1>
+<header color="primary">
+  <h1 class="title-header">Jonathon Clifford</h1>
   <h2>Full Stack Web Developer</h2>
   <p>Spring Boot Java</p>
   <p>Angular</p>
-  <mat-slider min="1" max="100" step="1" value="1"></mat-slider>
 </header>
-<section class="projects">
-  <h1 class="subtitle">Projects</h1>
-  <a class="project-link" href="https://main.d23shy29m415ff.amplifyapp.com" target="_blank">
-    <h2>SimpleTimer.com</h2>
-  </a>
-  <div class="project-frame">
-    <iframe class="timer-frame" src="https://main.d23shy29m415ff.amplifyapp.com"></iframe>
-  </div>
-</section>
 <app-schematic-dashboard></app-schematic-dashboard>
 <router-outlet></router-outlet>
