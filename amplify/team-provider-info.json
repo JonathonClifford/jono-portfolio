@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-jonoportfolio-dev-05118-authRole",
+      "UnauthRoleArn": "arn:aws:iam::717734695783:role/amplify-jonoportfolio-dev-05118-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::717734695783:role/amplify-jonoportfolio-dev-05118-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-jonoportfolio-dev-05118-deployment",
+      "UnauthRoleName": "amplify-jonoportfolio-dev-05118-unauthRole",
+      "StackName": "amplify-jonoportfolio-dev-05118",
+      "StackId": "arn:aws:cloudformation:us-east-1:717734695783:stack/amplify-jonoportfolio-dev-05118/861ae110-b331-11eb-99cc-0a086119f71b",
+      "AmplifyAppId": "d1tpui8rxz57ao"
+    }
+  }
+}
